@@ -1,0 +1,10 @@
+# Ranks
+ranks:
+  owner:
+    priority: 1
+    permission: 'queue.owner'
+    bypass: true
+  default:
+    priority: 2
+    permission: 'queue.default'
+    bypass: false

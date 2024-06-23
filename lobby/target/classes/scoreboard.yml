@@ -1,0 +1,11 @@
+scoreboard:
+  title: "help me"
+  lines:
+    - ""
+    - "Online"
+    - "%online_players%"
+    - ""
+    - "Rank"
+    - "%rank%"
+    - ""
+    - "&7pots.gg"

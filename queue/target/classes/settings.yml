@@ -1,0 +1,4 @@
+# Delay between when each player is sent (in seconds)
+delay: 2
+# This will send a message every 15 seconds to every player in queue.
+reminder-delay: 10

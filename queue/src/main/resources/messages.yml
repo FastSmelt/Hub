@@ -1,0 +1,13 @@
+# Messages Configuration File
+# This file contains all messages used by the plugin.
+
+queue:
+  available-servers: '&fAvailable Servers&7: &bTeams'
+  already-in-queue: '&e&lQUEUE &8• &cYou are already in a queue for %server%&f.'
+  not-in-queue: '&e&lQUEUE &8• &cYou are currently not in any queue for any server&f.'
+  joined-queue: '&e&lQUEUE &8• &fYou are position &a#%position% &fin the server &e%server% &fqueue.'
+  left-queue: '&e&lQUEUE &8• &cYou left %server% queue&f.'
+  reminder: '&e&lQUEUE &8• &fYou are &a#%position% &fout of &c%waiting% &fin the server &e%server% &fqueue.'
+  sent-queue: '&e&lQUEUE &8• &fYou have been sent to &e%server%&f.'
+  paused-queue: '&e&lQUEUE &8• &eQueue for &e%server% &fhas been paused&f.'
+  resumed-queue: '&e&lQUEUE &8• &eQueue for &e%server% &fhas been resumed&f.'

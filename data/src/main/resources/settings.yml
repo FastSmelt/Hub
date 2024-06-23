@@ -1,0 +1,12 @@
+DATABASE:
+  REDIS:
+    ADDRESS: '127.0.0.1'
+    PORT: 6379
+    CHANNEL: 'data'
+    AUTH: #If you need auth, what are you doing with your life
+      ENABLED: false
+      PASSWORD: 'PleaseRunRedisLocally'
+
+SERVER:
+  NAME: 'hub-01'
+  UPDATE-INTERVAL: 2000 #2 seconds (Time in ms)

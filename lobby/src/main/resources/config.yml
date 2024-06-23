@@ -1,0 +1,30 @@
+# Configuration File
+
+# Menu
+selector:
+  name: "&eServers"
+  size: 27
+
+# Servers
+servers:
+  1:
+    name: "&bDevelopment"
+    server: development
+    material: DIAMOND_SWORD
+    slot: 13
+    data: 0
+    command: "joinqueue development"
+    lore:
+      - "&fServer under development, coming soon!"
+      - ""
+      - "&bOnline: &7%online_players%"
+      - "&bStatus: &7%status%"
+      - ""
+      - "&aClick to join the queue."
+
+# Welcome Message
+welcome:
+  message:
+    - ""
+    - ""
+    - ""

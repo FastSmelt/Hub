@@ -1,0 +1,9 @@
+# Items Configuration File
+# You can edit the items in the game here.
+
+server-selector:
+  material: WATCH
+  slot: 0
+  name: '&eServer Selector'
+  lore:
+    - "&7Click to open the server selector."

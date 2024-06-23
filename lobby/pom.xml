@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>gg.pots</groupId>
+        <artifactId>hub</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>gg.pots.lobby</groupId>
+    <artifactId>lobby</artifactId>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.NoSequel</groupId>
+            <artifactId>MenuAPI</artifactId>
+            <version>832c770b4c</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.puugz</groupId>
+            <artifactId>ScoreboardAPI</artifactId>
+            <version>f395b4bb0e</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.NoSequel.TabAPI</groupId>
+            <artifactId>shared</artifactId>
+            <version>c51f5f5b3f</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.NoSequel.TabAPI</groupId>
+            <artifactId>v1_7_R4</artifactId>
+            <version>c51f5f5b3f</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.NoSequel.TabAPI</groupId>
+            <artifactId>v1_8_R3</artifactId>
+            <version>c51f5f5b3f</version>
+        </dependency>
+
+        <dependency>
+            <groupId>gg.pots.data</groupId>
+            <artifactId>data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/data-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>gg.pots.basics.core</groupId>
+            <artifactId>Core</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Core-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,16 @@
+name: lobby
+version: 1.0-SNAPSHOT
+main: gg.pots.lobby.LobbySpigotPlugin
+softdepend:
+  - data
+
+commands:
+  spawn:
+    description: Teleports you to the spawn
+    usage: /spawn
+  setspawn:
+    description: Sets the spawn
+    usage: /setspawn
+  build:
+    description: Toggles build mode
+    usage: /build
